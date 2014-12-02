@@ -39,7 +39,7 @@
 		<g:message code="webButtonResult.lastTested.label" default="Last Tested" />
 		<span class="required-indicator">*</span>
 	</label>
-	<joda:dateTimePicker name="lastTested" value="${webButtonResultInstance?.lastTested}" ></joda:dateTimePicker>
+	<g:datePicker name="lastTested" precision="minute"  value="${webButtonResultInstance?.lastTested}"  />
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: webButtonResultInstance, field: 'result', 'error')} required">

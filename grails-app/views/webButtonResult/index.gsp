@@ -50,7 +50,7 @@
 					
 						<td>${fieldValue(bean: webButtonResultInstance, field: "type")}</td>
 					
-						<td>${fieldValue(bean: webButtonResultInstance, field: "lastTested")}</td>
+						<td><g:formatDate date="${webButtonResultInstance.lastTested}" /></td>
 					
 						<td>${fieldValue(bean: webButtonResultInstance, field: "result")}</td>
 					

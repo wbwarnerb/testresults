@@ -63,7 +63,7 @@
 				<li class="fieldcontain">
 					<span id="lastTested-label" class="property-label"><g:message code="webButtonResult.lastTested.label" default="Last Tested" /></span>
 					
-						<span class="property-value" aria-labelledby="lastTested-label"><g:fieldValue bean="${webButtonResultInstance}" field="lastTested"/></span>
+						<span class="property-value" aria-labelledby="lastTested-label"><g:formatDate date="${webButtonResultInstance?.lastTested}" /></span>
 					
 				</li>
 				</g:if>
