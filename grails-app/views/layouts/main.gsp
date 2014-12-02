@@ -17,7 +17,7 @@
 		<g:layoutHead/>
 	</head>
 	<body>
-		<div id="grailsLogo" role="banner"><h1><b><g:link controller="WBDashboard">Web Button Test Results</g:link> | <g:link controller="WebButtonResult">Add A Test</g:link></b></h1><br></div>
+		<div id="grailsLogo" role="banner"><h1><b><g:link controller="WBDashboard">Web Button Test Results (Staging ENV)</g:link> | <g:link controller="WebButtonResult">Add A Test</g:link></b></h1><br></div>
 		<g:layoutBody/>
 		<div class="footer" role="contentinfo"></div>
 		<div id="spinner" class="spinner" style="display:none;"><g:message code="spinner.alt" default="Loading&hellip;"/></div>
