@@ -29,6 +29,6 @@
     </g:else>
 
     <td>
-        ${relatedTicket}
+        <a href="${relatedTicket}">${relatedTicket}</a>
     </td>
 </tr>
